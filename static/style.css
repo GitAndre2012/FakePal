@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Paypal Big Sans";
+    src: url("PayPal-BigSans.woff2");
+}
+
+.div{
+    position: relative;
+    border: 1px solid lightgrey;
+    font-family: "Paypal Big Sans";
+    border-radius: 30px;
+    width: 350px;
+    left: calc(50% - 175px);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.title{
+    position: relative;
+    left: calc(50% - 120px)
+}
+.logo{
+    position: relative;
+    width: 75px;
+    border-radius: 10px;
+    left: calc(50% - 32.5px)
+}
+.iem{
+    position: relative;
+    margin-left: 30px;
+    top: 30px;
+    background-color: white;
+    width: 65px;
+}
+.iemp{
+    height: 45px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 15px;
+    width: 305px;
+    border: 1px solid grey;
+}
+.iemp:hover{
+    border: 1px solid darkblue;
+}
+.iemp:focus{
+    border: 2px solid darkblue;
+    outline: none;
+}
+.submit{
+    background-color: #1040C1;
+    color: white;
+    width: 310px;
+    height: 45px;
+    border-radius: 50px;
+    margin-left: 20px;
+    border: #1040C1;
+    font-family: "Paypal Big Sans";
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: -30px;
+}
+.link{
+    position: relative;
+    bottom: 30px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.link:visited{
+    color: blue;
+}
+.ok-img{
+    position: relative;
+    width: 100px;
+    left: calc(50% - 50px);
+}
+.riv{
+    position: relative;
+    font-size: 30px;
+    font-family: "Paypal Big Sans";
+    width: 350px;
+    left: calc(50% - 175px);
+    text-align: center;
+}

