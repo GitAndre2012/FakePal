@@ -14,7 +14,7 @@ def index ():
 
 @app.route("/forgot")
 def forgot ():
-    return "Non puoi così dal nulla impedirmi di truffarti, addesso apri il sito di PayPal vero fai \"Accedi\" e dopo fai \"Password dimenticata?\". Alla fine torni su questo sito e mi dai i tuoi dati. E non fare il furbo chiudendo il sito tanto ti vengo a cercare a casa perchè ho il tuo ip e ti posso tracciare. D'accordo?"
+    return "It's not fair, now go to Paypal real login page and get your real password and give it to me"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0")   
